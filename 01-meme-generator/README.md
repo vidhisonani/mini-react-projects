@@ -1,22 +1,54 @@
 # 😂 Meme Generator
 
-A fun and interactive **React-based meme generator**.  
-It allows users to generate random meme images and add custom top and bottom text.  
-The app uses an external API to fetch meme templates and updates the UI dynamically.
+Turn your ideas into hilarious memes in seconds!  
+This interactive **React-based meme generator** lets you choose from popular meme templates, add your own captions, and even upload your own images. Perfect for quick laughs or sharing on social media.
 
 ---
 
 ## 🚀 Features
-- Fetches random meme images from an API  
-- Add custom top and bottom text  
-- Real-time updates using React state  
-- Simple and responsive UI  
-- Beginner-friendly React project  
+
+- Fetches meme templates from the [ImgFlip API](https://imgflip.com/api)
+- Add **custom top and bottom text**
+- **Upload your own images** to create personalized memes
+- **Download memes** as PNG files
+- Real-time updates with **React state**
+- Simple, responsive, and beginner-friendly design
+
+---
+
+## 📸 Screenshot
+<img src="./src/assets/Example/my_meme (1).png" alt="Meme Generator" width="400" height="auto"/>
 
 ---
 
 ## 🛠️ Technologies Used
-- **React.js** for building UI components  
-- **JavaScript (ES6)** for logic and state management  
-- **CSS3** for styling  
-- **HTML5** for structure  
+
+- **React.js** – for building interactive UI components
+- **JavaScript (ES6)** – for logic, state management, and event handling
+- **CSS3** – for responsive and attractive styling
+- **HTML5** – semantic structure and accessibility
+- **html2canvas** – for exporting memes as images
+
+---
+
+## 💻 Running Projects Locally
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/vidhisonani/mini-react-projects.git
+   ```
+
+2. Go into a project folder, e.g.:
+   ```bash
+   cd 01-meme-generator
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Run the app:
+   ```bash
+   npm run dev
+   ```

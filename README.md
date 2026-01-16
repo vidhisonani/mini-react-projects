@@ -1,31 +1,34 @@
 # ⚛️ Mini React Projects
 
-This repository contains small **React.js mini projects** created for practice and learning purposes.
+A collection of small **React.js mini projects** created for practice and learning purposes.  
+Each project is organized in its own folder with:
 
-Each project is placed in its own folder with a standard React setup.
+- `package.json` & standard React setup  
+- `src/` containing components, styles, and logic  
+- `README.md` (optional project-specific details)  
 
-This repository is meant for practicing **React concepts**, improving **JavaScript skills**, and building a growing collection of small React projects for future reference.
+The goal of this repository is to provide **hands-on practice with React**, improve **JavaScript skills**, and create a reference collection of mini projects that can grow over time.
 
 ---
 
-## 📂 Current Project
+## 📂 Current Projects
 
 ### 😂 Meme Generator
 
-A React-based meme generator application that allows users to generate random meme images and add custom text.
+A fun React app to **generate memes with custom text, upload images, and download them**.  
 
-- Fetches meme images from an external API
-- Allows adding top and bottom text
-- Uses React state and hooks
-- Beginner-friendly React project
+- Fetches popular meme templates from an API  
+- Add top and bottom text  
+- Upload your own images  
+- Download memes as PNG  
+
+**Note:** Full details are available in [`01-meme-generator/README.md`](./01-meme-generator)
 
 ---
 
 ## 🚀 Technologies Used
 
-- **React.js**
-- **JavaScript (ES6)**
-- **HTML5**
-- **CSS3**
-
----
+- **React.js** – for building interactive UI components  
+- **JavaScript (ES6)** – logic and state management  
+- **HTML5 & CSS3** – structure and styling  
+- **html2canvas** – exporting components as images
