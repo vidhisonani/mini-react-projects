@@ -21,6 +21,15 @@ function MainContent() {
       [name]: value,
     }));
   }
+
+  function getMemeImage() {
+    const randomNumber = Math.floor(Math.random() * allMemes.length);
+    const newImageUrl = allMemes[randomNumber].url;
+    setMeme((prevMeme) => ({
+      ...prevMeme,
+      imageUrl: newImageUrl,
+    }));
+  }
   return (
     <>
       <main>
@@ -45,7 +54,7 @@ function MainContent() {
               value={meme.bottomText}
             />
           </label>
-          <button>Get a new meme image</button>
+          <button onClick={getMemeImage}>Get a new meme image</button>
         </div>
         <div className="meme">
           <img src={meme.imageUrl} alt="Image" />
