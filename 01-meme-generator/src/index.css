@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Franklin Gothic Medium", sans-serif;
+  font-family: "Karla", sans-serif;
   margin: 0;
 }
 .header {
@@ -29,8 +29,8 @@ main {
 .form {
   display: grid;
   grid-template: auto auto / 1fr 1fr;
-  gap: 17px;
-  margin-bottom: 17px;
+  gap: 15px;
+  margin-bottom: 10px;
 }
 .form input {
   width: 100%;
@@ -61,6 +61,7 @@ main {
 }
 .meme > img {
   max-width: 100%;
+  min-width: 380px;
   height: auto;
   border-radius: 3px;
 }
@@ -83,4 +84,56 @@ main {
 }
 .top {
   top: 0;
+}
+.imageUploadLabel {
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  background: linear-gradient(90deg, rgb(88, 32, 116), rgb(149, 34, 195));
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: 100;
+  text-align: center;
+  font-size: small;
+}
+.imageUploadLabel:hover,
+.form button:hover {
+  background: linear-gradient(90deg, rgb(88, 32, 126), rgb(149, 34, 215));
+}
+.imageUpload {
+  display: none;
+}
+.labels {
+  font-weight: bold;
+}
+.download {
+  display: flex;
+  justify-content: center;
+
+  cursor: pointer;
+  border-radius: 5px;
+  background: linear-gradient(90deg, rgb(88, 32, 116), rgb(149, 34, 195));
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: 100;
+  text-align: center;
+  font-size: small;
+  margin: auto;
+  margin-top: 10px;
+}
+
+@media (max-width: 450px) {
+  .meme > img {
+    min-width: 90%;
+  }
+  .meme span {
+    font-size: 1.1rem;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
 }
