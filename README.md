@@ -22,6 +22,8 @@ A fun React app to **generate memes with custom text, upload images, and downloa
 - Upload your own images  
 - Download memes as PNG  
 
+**Live Demo:** [Meme Generator](https://meme-generator-vidhi.netlify.app/)  
+
 **Note:** Full details are available in [`01-meme-generator/README.md`](./01-meme-generator)
 
 ---
