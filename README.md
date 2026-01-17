@@ -24,7 +24,7 @@ A classic **Tenzies dice game** built using React, focusing on **state managemen
 - Uses **ARIA attributes** for accessibility  
 - Visual dice implemented using **SVG images**  
 
-**Live Demo:** [Tenzies Game]()
+**Live Demo:** [Tenzies Game](https://tenzies-game-vidhi.netlify.app/)
 
 **Note:** Full details are available in [`02-tenzies/README.md`](./02-tenzies)
 

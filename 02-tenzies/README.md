@@ -4,7 +4,7 @@ A React implementation of the classic **Tenzies dice game**, where the goal is t
 
 This project focuses on **React hooks**, **game logic**, **accessibility**, and **responsive design**.
 
-**Live Demo:** [Tenzies Game]()
+**Live Demo:** [Tenzies Game](https://tenzies-game-vidhi.netlify.app/)
 
 ---
 
