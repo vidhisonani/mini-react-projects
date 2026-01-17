@@ -26,7 +26,6 @@ function MainComponent() {
       return () => clearInterval(interval);
     }
   }, [gameWon]);
-
   function generateAllNewDice() {
     return new Array(10).fill(0).map(() => ({
       value: Math.floor(Math.random() * 6) + 1,
@@ -46,6 +45,7 @@ function MainComponent() {
       );
     } else {
       setDice(generateAllNewDice());
+      setTime(0);
     }
   }
 
