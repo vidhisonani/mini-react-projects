@@ -13,6 +13,23 @@ The goal of this repository is to provide **hands-on practice with React**, impr
 
 ## 📂 Current Projects
 
+### 🎲 Tenzies Game
+
+A classic **Tenzies dice game** built using React, focusing on **state management, accessibility, and responsive UI design**.
+
+- Roll dice until all values match  
+- Click a die to **hold** its value between rolls  
+- Tracks **time taken** and **number of rolls**  
+- Fully **responsive** for mobile and desktop  
+- Uses **ARIA attributes** for accessibility  
+- Visual dice implemented using **SVG images**  
+
+**Live Demo:** [Tenzies Game]()
+
+**Note:** Full details are available in [`02-tenzies/README.md`](./02-tenzies)
+
+---
+
 ### 😂 Meme Generator
 
 A fun React app to **generate memes with custom text, upload images, and download them**.  
@@ -33,4 +50,17 @@ A fun React app to **generate memes with custom text, upload images, and downloa
 - **React.js** – for building interactive UI components  
 - **JavaScript (ES6)** – logic and state management  
 - **HTML5 & CSS3** – structure and styling  
-- **html2canvas** – exporting components as images
+- **React Hooks** – useState, useEffect, useRef  
+- **CSS Grid & Media Queries** – responsive layouts  
+- **ARIA Accessibility** – screen reader support  
+- **html2canvas** – exporting components as images (used in Meme Generator)
+
+## 📌 Purpose
+
+These projects are built for:
+- Strengthening React fundamentals  
+- Practicing clean component-based architecture  
+- Improving UI/UX and accessibility awareness  
+- Creating portfolio-ready projects  
+
+More projects will be added over time 🚀
