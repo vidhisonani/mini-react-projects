@@ -3,7 +3,8 @@
 Turn your ideas into hilarious memes in seconds!  
 This interactive **React-based meme generator** lets you choose from popular meme templates, add your own captions, and even upload your own images. Perfect for quick laughs or sharing on social media.
 
-**Live Demo:** [Meme Generator](https://meme-generator-vidhi.netlify.app/)  
+**Live Demo:** [Meme Generator](https://meme-generator-vidhi.netlify.app/) 
+
 ---
 
 ## 🚀 Features
