@@ -12,6 +12,25 @@ The goal of this repository is to provide **hands-on practice with React**, impr
 ---
 
 ## 📂 Current Projects
+### 🧩 Assembly: Endgame
+
+A **word-guessing game** inspired by Hangman, built with React and a programming-themed twist.  
+Each wrong guess eliminates a programming language — guess the word before **Assembly takes over**.
+
+- Random word generation for each new game  
+- On-screen keyboard with visual feedback for correct and incorrect guesses  
+- Limited attempts based on the number of programming languages  
+- Dynamic win and loss states  
+- Confetti celebration on winning the game  
+- Contextual messages for **both correct and wrong guesses**
+- Fully responsive and optimized for mobile devices  
+- Clean separation of game logic and UI state  
+
+**Live Demo:** [Assembly Endgame](https://assembly-endgame-vidhi.netlify.app/)
+
+**Note:** Full details are available in [`03-assembly-endgame/README.md`](./03-assembly-endgame)
+
+---
 
 ### 🎲 Tenzies Game
 
