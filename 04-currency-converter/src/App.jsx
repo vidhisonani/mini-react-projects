@@ -9,16 +9,15 @@ function App() {
   const [convertedAmount, setConvertedAmount] = useState(0);
 
   const currencyInfo = useCurrecyInfo(from);
-  const options = Object.keys(currencyInfo)
+  const options = Object.keys(currencyInfo);
 
   const swap = () => {
-    const swap = () => {
-      setFrom(to);
-      setTo(from);
-      setAmount(convertedAmount);
-      setConvertedAmount(amount);
-    };
+    setFrom(to);
+    setTo(from);
+    setAmount(convertedAmount);
+    setConvertedAmount(amount);
   };
+
   useEffect(() => {
     if (currencyInfo[to]) {
       setConvertedAmount(amount * currencyInfo[to]);
@@ -29,7 +28,7 @@ function App() {
     <div
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
       style={{
-        backgroundImage: `url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
+        backgroundImage: `url('https://images.pexels.com/photos/35878086/pexels-photo-35878086.jpeg')`,
       }}
     >
       <div className="w-full">
