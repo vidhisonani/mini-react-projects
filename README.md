@@ -12,6 +12,21 @@ The goal of this repository is to provide **hands-on practice with React**, impr
 ---
 
 ## 📂 Current Projects
+### 💱 Currency Converter
+A **real-time currency converter** built with React that supports **all currencies provided by the API**, focusing on clean logic, custom hooks, and accurate UX decisions.
+
+- Converts between multiple global currencies  
+- Uses a **custom React hook** to fetch exchange rates  
+- Auto-updates conversion on amount or currency change  
+- Swap functionality between "From" and "To" currencies  
+- Fully responsive UI using **Tailwind CSS**  
+- Clean separation of UI components and data logic  
+
+**Live Demo:** [Currency Converter](https://currency-converter-vidhi.netlify.app/)
+
+**Note:** Full details are available in  
+[`04-currency-converter/README.md`](./04-currency-converter)
+
 ### 🧩 Assembly: Endgame
 
 A **word-guessing game** inspired by Hangman, built with React and a programming-themed twist.  
@@ -73,6 +88,7 @@ A fun React app to **generate memes with custom text, upload images, and downloa
 - **CSS Grid & Media Queries** – responsive layouts  
 - **ARIA Accessibility** – screen reader support  
 - **html2canvas** – exporting components as images (used in Meme Generator)
+- **TailwindCSS** - for Fully responsive UI
 
 ## 📌 Purpose
 
