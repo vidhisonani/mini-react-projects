@@ -12,6 +12,25 @@ The goal of this repository is to provide **hands-on practice with React**, impr
 ---
 
 ## 📂 Current Projects
+### ☕ Coffee Cafe — Modern Cafe Website (React)
+Coffee Cafe is a **frontend React project** that represents a modern coffee shop website with smooth animations, a clean UI, and responsive design. The project focuses on building a visually appealing café landing page using **React**, **Tailwind CSS**, and animation libraries to enhance user experience.
+
+- Modern café-themed UI  
+- Dark Mode / Light Mode toggle  
+- Smooth scroll animations using **AOS**  
+- Responsive design for all screen sizes  
+- Reusable React components  
+- Icons using **react-icons**  
+- Clean and minimal layout  
+- Fast and lightweight frontend  
+
+**Live Demo:** [Coffee cafe](https://coffee-cafe-by-vidhi.netlify.app/)
+
+**Note:** Full details are available in  
+[`05-coffee-cafe/README.md`](./05-coffee-cafe)
+
+---
+
 ### 💱 Currency Converter
 A **real-time currency converter** built with React that supports **all currencies provided by the API**, focusing on clean logic, custom hooks, and accurate UX decisions.
 
@@ -26,6 +45,8 @@ A **real-time currency converter** built with React that supports **all currenci
 
 **Note:** Full details are available in  
 [`04-currency-converter/README.md`](./04-currency-converter)
+
+---
 
 ### 🧩 Assembly: Endgame
 

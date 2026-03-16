@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+html,
+body {
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+.slick-list {
+  overflow: hidden !important;
+}
+
+.slick-track {
+  display: flex !important;
+}
+@theme {
+  --color-primary: #854d3d; /* coffee brown */
+  --color-secondary: #4a1e1b; /* dark roast */
+  --color-brandDark: #270c03; /* espresso */
+
+  --color-coffeeLight: #c89f94; /* latte */
+  --color-coffeeDark: #3b1a14; /* dark mocha */
+
+  --font-cursive: "Pacifico", cursive;
+}
+
+@layer utilities {
+  .font-cursive {
+    font-family: var(--font-cursive);
+  }
+  .animate-spin-slow {
+    animation: spin 20s linear infinite;
+  }
+  .spin {
+    animation: spin 18s linear infinite;
+  }
+}
+@custom-variant dark (&:where(.dark, .dark *));
